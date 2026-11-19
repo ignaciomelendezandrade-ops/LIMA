@@ -63,3 +63,31 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+form {
+    background-color: darkcyan;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, select, textarea{
+    width: 100%;
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+
+}
+button{
+    background-color: darkcyan;
+    color: rgb(97, 139, 139);
+    padding: 10px;
+    border: none;
+    width: 95%;
+    cursor: pointer;
+}
+label{
+    background-color: rgb(177, 207, 228);
+}

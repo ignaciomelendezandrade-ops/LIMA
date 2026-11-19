@@ -4,3 +4,5 @@ from django.shortcuts import render
 
 def inicio (request):
     return render (request, "Melendez/inicio.html")
+def registro (request):
+    return render (request, "Melendez/formregistro.html")
